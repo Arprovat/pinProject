@@ -1,0 +1,100 @@
+:root {
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+   
+    padding: 0;
+  }
+  
+  body {
+    margin: 2rem;
+    color: var(--clr-gray);
+    background-image: linear-gradient(to right, #8bc2f2f0 0%, #94d9ddf1 100%)!important;
+  }
+  .component{
+          top: 160px;
+          position: relative
+  }
+  .wrapper-flexs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  
+  .containerpro {
+    margin-top: 100px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: #b8c6db;
+background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    width: 280px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  #rightSideBar {
+    width: 1080px;
+    height: 1000px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+  
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .banner-img {
+    position: absolute;
+    background-color: #efecec;
+    background-image: linear-gradient(315deg, #efecec 0%, #362f2e 74%);
+
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .profile-img {
+    width: 8rem;
+    clip-path: circle(60px at center);
+    margin-top: 4.5rem;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .btn {
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    background-color: #efecec;
+    background-color: #17f9f2;
+    background-color: #007ea7;
+background-image: linear-gradient(315deg, #007ea7 0%, #80ced7 74%);
+    cursor: pointer;
+  }
+  

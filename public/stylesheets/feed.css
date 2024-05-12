@@ -1,0 +1,49 @@
+body { /*Aesthetics*/
+    background: #ddd;
+  }
+  .Detail.Body { /*Aesthetics*/
+    color: #fff;
+    margin: 0 auto;
+    text-shadow: 0 0 2px #000;
+    width: 80%; 
+  }
+  a { /*Aesthetics*/
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 0 2px #000;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .Listing.Grid { /*http://caniuse.com/#search=column*/
+    /*Using the CSS column feature is supported in modern browsers with some limits*/
+    columns: 3 250px;/*Allows for 3 columns*//*Makes columns responsive - if too narrow for this width it reduces the column count however allows growth if past this width*/
+    column-gap: 1rem;/*Gap between columns, not on outside of left or right-most columns*/
+    margin: 1rem;/*Aesthetics*/
+  }
+  .Listing-Item {
+    display: inline-block; /*Fixes issue where Item may wrap to next column*/
+    margin-bottom: 1rem; /*Uniform break after all items*/
+    position: relative; /*To allow text to float on top of image*/
+  }
+  .Listing-Item img {
+    vertical-align: middle; /*Ensures container is located in the middle of the image so height of image is all you see*/
+    width: 100%; /*Limits width so image is fully visible within column*/
+  }
+  .Listing-Info {
+    height: calc(100% - 2rem); /*Accounts for padding to keep text container height*/
+    padding: 1rem;/*Aesthetics*/
+    position: absolute;/*Allows text to float over image*/
+      top: 0;
+      left: 0;
+    text-align: center; /*Aesthetics*/
+    width: calc(100% - 2rem);/*Accounts for padding to keep text centered*/
+  }
+  
+  
+  
+  .Property {
+    display: block;/*Aesthetics*/
+  }
